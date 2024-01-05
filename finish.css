@@ -1,0 +1,127 @@
+body {
+    background: linear-gradient(to right, hsl(331, 67%, 86%), hsl(303, 91%, 27%));
+    font-size: 14pt;
+    color: white;
+    font-family: Maiandra GD;
+    text-align: left;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding-top: 20px;
+}
+
+a {
+    background-color: white;
+    color: purple;
+    line-height: 100px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+label {
+    line-height: 75px;
+    margin-left: 10px;
+    text-align: right;
+}
+
+#ini {
+    background-image: url(img/icons8_unlock_100px.png);
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 17%;
+}
+
+#in {
+    background-image: url(img/1.png);
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25%;
+}
+
+a:first-child {
+    background-image: url(img/icons8_administrator_male_100px.png);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30%;
+}
+
+a:last-child {
+    background-image: url(img/icons8_shutdown_100px.png);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30%;
+}
+
+a:hover {
+    opacity: 85%;
+}
+
+img {
+    text-align: center;
+    align-items: center;
+    width: 130px;
+}
+
+input {
+    font-family: Maiandra GD;
+    font-size: 14pt;
+    color: white;
+    border-style: solid;
+    border-color: purple;
+    background-color: purple;
+    border-bottom-color: white;
+    border-bottom-width: 4.5px;
+    width: 320px;
+    margin-left: 10px;
+}
+
+.frOut {
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.438);
+    background-color: white;
+    width: 350px;
+    height: 550px;
+}
+
+.frInto {
+    position: absolute;
+    margin-top: 20px;
+    background-color: purple;
+    width: 350px;
+    height: 508px;
+}
+
+.frInto p {
+    font-size: 11pt;
+    text-align: center;
+    font-style: italic;
+}
+
+.butao,
+#img {
+    text-align: center;
+    height: 90px;
+}
+
+#img {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    height: 90px;
+}
+
+.butao {
+    padding-top: 10px;
+}
